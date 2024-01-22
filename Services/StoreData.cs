@@ -29,7 +29,7 @@ namespace NewsApp.Services
                 cmd.Parameters.AddWithValue("@PublishedAt", eachNews.PublishedAt);
                 cmd.Parameters.AddWithValue("@Content", eachNews.Content);
 
-                //2nd commnent, boy, I'm drunk.....
+                //2nd commnent, boy, I'm drunk.......
 
                 if (count > 4)
                 {
