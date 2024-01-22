@@ -30,6 +30,7 @@ namespace NewsApp.Services
                 cmd.Parameters.AddWithValue("@Content", eachNews.Content);
 
                 //2nd commnent, boy, I'm drunk.......
+                //3rd commmit
 
                 if (count > 4)
                 {
