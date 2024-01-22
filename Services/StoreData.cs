@@ -29,9 +29,6 @@ namespace NewsApp.Services
                 cmd.Parameters.AddWithValue("@PublishedAt", eachNews.PublishedAt);
                 cmd.Parameters.AddWithValue("@Content", eachNews.Content);
 
-                //2nd commnent, boy, I'm drunk.......
-                //3rd commmit
-
                 if (count > 4)
                 {
                     con.Close();
